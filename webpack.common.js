@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     clean: true,
   },
   module: {
@@ -49,7 +49,7 @@ module.exports = {
           globOptions: {
             ignore: '**/images/**',  
           },
-          to: path.resolve(__dirname, 'dist/'),
+          to: path.resolve(__dirname, 'docs/'),
         },
       ],
     }),

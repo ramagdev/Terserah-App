@@ -18,14 +18,14 @@ class RestoItem extends HTMLElement {
 
   render () {
     this.innerHTML = `
-      <a href="/#/detail/${this._resto.id}">
+      <a href="#/detail/${this._resto.id}">
         <img class="lazyload resto-img" data-src="${this._config.SMALL_IMAGE_URL + this._resto.pictureId}" alt="gambar suasana di ${this._resto.name}" crossorigin="anonymous">
       </a>
       <div class="resto-rating">
         <p>⭐️<span class="resto-rating-score" tabindex="0" aria-label="rating restoran: ${this._resto.rating}">${this._resto.rating.toFixed(1)}</span></p>
       </div>
       <div class="resto-info">
-        <h3 class="resto-name"><a href="/#/detail/${this._resto.id}">${this._resto.name}</a></h3>
+        <h3 class="resto-name"><a href="#/detail/${this._resto.id}">${this._resto.name}</a></h3>
         <p class="resto-city" tabindex="0" aria-label="di kota: ${this._resto.city}">${this._resto.city}</p>
         <div class="resto-desc-container">
           <p class="resto-description" tabindex="0" aria-label="deskripsi restoran: ${this._resto.description}">${this._resto.description}</p>
