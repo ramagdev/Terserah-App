@@ -4,10 +4,6 @@ $primary-color: rgb(153, 5, 5);
     .resto-list {
         grid-template-columns: 1fr 1fr;
     }
-
-    .resto-review {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 
 @media screen and (max-width: 723px) {
@@ -15,33 +11,12 @@ $primary-color: rgb(153, 5, 5);
     .nav-list {
         gap: 3vw;
     }
-
-    .resto-container {
-        gap: 2rem 0;
-    }
-
-    .resto-container img {
-        width: 70%;
-    }
-    .resto-container .resto-overview {
-        width: 100%;
-        margin-inline: 1rem;
-    }
-
 }
 
 @media screen and (max-width: 662px) {
     
     .nav-list {
         gap: 0;
-    }
-
-    .resto-container img {
-        width: 70%;
-    }
-
-    .resto-review {
-        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -68,10 +43,6 @@ $primary-color: rgb(153, 5, 5);
     nav a {
         font-size: 4vw;
         padding-block: 14px;
-    }
-
-    .resto-review {
-        grid-template-columns: 1fr;
     }
 }
 
@@ -141,13 +112,5 @@ $primary-color: rgb(153, 5, 5);
 
     .resto-list {
         grid-template-columns: 1fr;
-    }
-
-    .resto-container img {
-        width: 100%;
-    }
-
-    .resto-container .resto-info {
-        width: 100%;
     }
 }
