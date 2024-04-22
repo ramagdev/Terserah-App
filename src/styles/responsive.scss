@@ -1,0 +1,153 @@
+$primary-color: rgb(153, 5, 5);
+
+@media screen and (max-width: 969px) {
+    .resto-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .resto-review {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 723px) {
+
+    .nav-list {
+        gap: 3vw;
+    }
+
+    .resto-container {
+        gap: 2rem 0;
+    }
+
+    .resto-container img {
+        width: 70%;
+    }
+    .resto-container .resto-overview {
+        width: 100%;
+        margin-inline: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 662px) {
+    
+    .nav-list {
+        gap: 0;
+    }
+
+    .resto-container img {
+        width: 70%;
+    }
+
+    .resto-review {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 605px) {
+
+    .nav-bar {
+        gap: 5vw;
+    }
+}
+
+@media screen and (max-width: 573px) {
+
+    .nav-bar {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 542px) {
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    nav a {
+        font-size: 4vw;
+        padding-block: 14px;
+    }
+
+    .resto-review {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .nav-bar {
+        grid-template-columns: auto 1fr;
+        padding-block: 3px;
+        gap: 10vw;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #drawer {
+        width: 121px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        transform: translate(-121px, 0);
+        transition: transform 0.3s ease-in-out;
+        background-color: $primary-color;
+    }
+
+    #drawer.open {
+        transform: translate(0, 0);
+    }
+
+    .nav-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        border: 1px solid #e0e0e0;
+    }
+
+    nav a {
+        width: 100%;
+        font-family: Lato, sans-serif;
+        font-size: 25px;
+        padding: 9px 8px;
+    }
+
+    #menu {
+        font-size: 34px;
+        display: block;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: white;
+        border: 3px solid white;
+    }
+
+    .skip-link {
+        left: auto;
+        right: 10px;
+    }
+
+    main .content {
+        margin-inline: 2vw;
+    }
+
+    .resto-list {
+        grid-template-columns: 1fr;
+    }
+
+    .resto-container img {
+        width: 100%;
+    }
+
+    .resto-container .resto-info {
+        width: 100%;
+    }
+}

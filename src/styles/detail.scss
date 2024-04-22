@@ -1,0 +1,80 @@
+$primary-color: rgb(153, 5, 5);
+
+.resto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 3em;
+    justify-content: center;
+}
+  
+.resto-container h2 {
+  font-size: 2em;
+  width: 100%;
+  color: $primary-color;
+}
+
+.resto-container img {
+  width: 45%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.resto-container .resto-info {
+  width: 20%;
+}
+
+.resto-container h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: $primary-color;
+}
+
+.resto-container h4 {
+  font-size: 1.2em;
+  margin-block-end: 0.2em;
+  text-align: justify;
+  color: $primary-color;
+}
+
+.resto-container p {
+  margin-block-start: 0.2em;
+}
+
+.resto-overview {
+  margin-inline: 5.5em;
+}
+
+.resto-overview p{
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 2em;
+  word-spacing: 0.2em;
+  text-align: justify;
+}
+
+.resto-review {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em 1em;
+}
+
+.fav-button {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  
+  position: fixed;
+  bottom: 60px;
+  right: 16px;
+  border-radius: 50%;
+  border: 0;
+  
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}

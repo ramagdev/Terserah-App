@@ -1,0 +1,96 @@
+{
+  "icons": [
+    {
+      "src": "./icon_512x512.97c3a2173bfac5e7d327aa8f9f3f4e73.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_384x384.d27dcc838559ca974b5246941fab7ccb.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_256x256.149478d24e2489d4808691e9f0996989.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_192x192.2a96ed49cb6835a98d472f3a8175ca7d.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_144x144.f6183cb495caebb77d66960d872d3007.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_128x128.6920004c3d670943fcd709d087359e23.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_96x96.7e1317af73579ac4b0e7f32734719bae.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon_512x512.97c3a2173bfac5e7d327aa8f9f3f4e73.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_384x384.d27dcc838559ca974b5246941fab7ccb.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_256x256.149478d24e2489d4808691e9f0996989.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_192x192.2a96ed49cb6835a98d472f3a8175ca7d.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_144x144.f6183cb495caebb77d66960d872d3007.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_128x128.6920004c3d670943fcd709d087359e23.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon_96x96.7e1317af73579ac4b0e7f32734719bae.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "Terserah App",
+  "short_name": "TApp",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Temukan Restoran favorit dengan TApp",
+  "theme_color": "#990505",
+  "background_color": "#ffefba"
+}

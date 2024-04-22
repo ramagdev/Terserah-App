@@ -1,0 +1,67 @@
+$primary-color: rgb(153, 5, 5);
+$secondary-color: rgb(190, 53, 53);
+$gradient-color: linear-gradient(to right, #ffefba, #ffffff);
+$shadow-color: rgba(0, 0, 0, 0.2);
+
+review-item {
+    padding: 5px 10px;
+    border: 1px solid $primary-color;
+    background-color: $gradient-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 $shadow-color;
+}                
+  
+//add-review
+
+add-review {
+  display: block;
+}
+
+add-review form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+add-review input, add-review textarea {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid $primary-color;
+}
+
+add-review input {
+  min-height: 44px;
+  min-width: 44px;
+  max-width: 200px;
+}
+
+add-review textarea {
+  height: 5em;
+}
+
+add-review label[for="review"] {
+  margin-top: 10px;
+}
+
+add-review button {
+  width: fit-content;
+  min-width: 44px;
+  min-height: 44px;
+  background-color: $primary-color;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+  border: 1px solid $primary-color;
+}
+
+add-review button:hover, add-review button:focus {
+  background-color: $secondary-color;
+}

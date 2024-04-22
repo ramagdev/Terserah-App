@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terserah App</title>
+    <link rel="preconnect" href="https://restaurant-api.dicoding.dev">
+    <meta name="theme-color" content="#990505" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="./TApp.webmanifest">
+
+  <body>
+    <header class="nav-bar">
+      <button id="menu" class="menu-button" aria-label="menu">☰</button>
+      <h1>Terserah App</h1>
+      <button class="skip-link" id="skip-link">Menuju ke konten</button>
+      <nav id="drawer">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#/home">Home</a></li>
+          <li class="nav-item"><a href="#/favorite">Favorite</a></li>
+          <li class="nav-item"><a href="https://www.facebook.com/ramatolongan/">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="loading">
+      <p id="error-message">Loading...<div class="spinner"></div></p>
+    </div>
+    <main id="main"></main>
+    <footer>
+      <p>Copyright © 2024 - Terserah App</p>
+    </footer>
+  </body>
+</html>
